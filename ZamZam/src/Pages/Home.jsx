@@ -33,7 +33,7 @@ function Home() {
           </h1>
           </div>
           </div>
-        <div className="basis-2/4 flex justify-center items-center">
+        <div className="basis-2/4 flex justify-center items-center h-96">
           <div className="flex flex-col items-center w-96 h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5">
             <h1 className="text-white text-center font-kanit font-medium text-3xl">Our</h1>
             <h1 className="text-white text-center">Menu</h1>
