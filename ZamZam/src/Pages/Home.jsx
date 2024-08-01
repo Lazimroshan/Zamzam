@@ -28,7 +28,7 @@ function Home() {
         <div className="flex lg:flex-row h-full flex-wrap">
           <div className="basis-2/4 flex justify-center  ">
           <div className=" w-96 :lg:h-full h-full flex flex-row items-center">
-          <h1 className="text-white text-7xl font-bold font-poppins px-3 ">
+          <h1 className="text-white text-4xl lg:text-7xl font-bold font-poppins px-3  text-center">
             We are opening soon...
           </h1>
           </div>
