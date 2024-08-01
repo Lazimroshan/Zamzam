@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 function Home() {
   return (
-    <div className="bg-[url('/zamzam.jpg')] bg-no-repeat bg-cover h-96 lg:bg-cover lg:h-screen lg:w-full">
+    <div className="bg-[url('/zamzam.jpg')] bg-no-repeat bg-cover bg-center h-96 lg:bg-cover lg:h-screen lg:w-full">
       <div className=" lg:h-screen">
         <nav className="mx-auto">
           <div className="flex justify-center lg:space-x-4 p-2 lg:p-4 ">
@@ -19,7 +19,7 @@ function Home() {
             <img src="/Logo3.png" alt="" className='w-48 h-48  lg:w-1/4 lg:h-1/4 '/>
           </div>
           <div> 
-            <h1 className='text-red-600 text-center text-5xl lg:text-8xl font-semibold font-Arsenal tracking-normal py-10 '>mandi restaurant </h1>
+            <h1 className='text-red-600 text-center text-5xl lg:text-8xl font-semibold font-Arsenal tracking-normal pb-10 '>mandi restaurant </h1>
           </div>
         </div>
       </div>
@@ -27,7 +27,7 @@ function Home() {
       <div className="bg-zamzam w-full lg:h-128 h-screen ">
         <div className="flex lg:flex-row h-full flex-wrap">
           <div className="basis-2/4 flex justify-center  ">
-          <div className=" w-96 h-full flex flex-row items-center">
+          <div className=" w-96 h-96 flex flex-row items-center">
           <h1 className="text-white text-7xl font-bold font-poppins px-3 ">
             We are opening soon...
           </h1>
