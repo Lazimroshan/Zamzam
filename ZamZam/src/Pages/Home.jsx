@@ -27,13 +27,13 @@ function Home() {
       <div className="bg-zamzam w-full lg:h-128 h-screen ">
         <div className="flex lg:flex-row h-full flex-wrap">
           <div className="basis-2/4 flex justify-center  ">
-          <div className=" w-96 h-96 flex flex-row items-center">
+          <div className=" w-96 :lg:h-full h-full flex flex-row items-center">
           <h1 className="text-white text-7xl font-bold font-poppins px-3 ">
             We are opening soon...
           </h1>
           </div>
           </div>
-        <div className="basis-2/4 flex justify-center items-center h-96">
+        <div className="basis-2/4 flex justify-center items-center">
           <div className="flex flex-col items-center w-96 h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5">
             <h1 className="text-white text-center font-kanit font-medium text-3xl">Our</h1>
             <h1 className="text-white text-center">Menu</h1>
