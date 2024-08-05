@@ -3,6 +3,7 @@ import { CiMail } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import {motion} from 'framer-motion'
 
 function Home() {
   return (
@@ -15,12 +16,20 @@ function Home() {
           </div>
         </nav>
         <div>
-          <div className='flex justify-center lg:mt-12'>
+          <motion.div className='flex justify-center lg:mt-12' 
+          initial={{opacity:0, y:-30 }}
+          animate={{opacity:1, y:0 }}
+          transition={{delay:0 , duration:1}}
+          >
             <img src="/Logo3.png" alt="" className='w-48 h-48  lg:w-1/4 lg:h-1/4 '/>
-          </div>
-          <div> 
+          </motion.div>
+          <motion.div
+          initial={{opacity:0, x:-50 }}
+          animate={{opacity:1, x:0 }}
+          transition={{delay:0 , duration:1}}
+          > 
             <h1 className='text-red-600 text-center text-5xl lg:text-8xl font-semibold font-Arsenal tracking-normal pb-10 '>mandi restaurant </h1>
-          </div>
+          </motion.div>
         </div>
       </div>
       <div>
@@ -28,9 +37,13 @@ function Home() {
         <div className="flex lg:flex-row h-full flex-wrap">
           <div className="basis-2/4 flex justify-center  ">
           <div className=" w-96 :lg:h-full h-full flex flex-row items-center">
-          <h1 className="text-white text-4xl lg:text-7xl font-bold font-poppins px-3  text-center">
+          <motion.h1 className="text-white text-4xl lg:text-7xl font-bold font-poppins px-3  text-center"
+          initial={{opacity:0}}
+          animate={{opacity:[0.2,1,0.2]}}
+          transition={{duration:4, repeat:Infinity, }}
+          >
             We are opening soon...
-          </h1>
+          </motion.h1>
           </div>
           </div>
         <div className="basis-2/4 flex justify-center items-center">
