@@ -38,18 +38,18 @@ function Home() {
           <div className="basis-2/4 flex justify-center  ">
           <div className=" w-96 :lg:h-full h-full flex flex-row items-center">
           <motion.h1 className="text-white text-4xl lg:text-7xl font-bold font-poppins px-3  text-center"
-          initial={{opacity:0}}
-          animate={{opacity:[0.2,1,0.2]}}
+          initial={{opacity:0  }}
+          animate={{opacity:[0.1,1,0.1] }}
           transition={{duration:4, repeat:Infinity, }}
           >
             We are opening soon...
           </motion.h1>
           </div>
           </div>
-        <div className="basis-2/4 flex justify-center items-center">
-          <div className="flex flex-col items-center w-96 h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5">
-            <h1 className="text-white text-center font-kanit font-medium text-3xl">Our</h1>
-            <h1 className="text-white text-center">Menu</h1>
+        <div className="lg:basis-2/4 flex justify-center items-center w-full">
+          <div className="flex flex-col items-center w-80 lg:w-96 Llg:h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5">
+            {/* <h1 className="text-white text-center font-kanit font-medium text-3xl">Our</h1> */}
+            <h1 className="text-white text-center font-kanit font-medium text-2xl">Explore Our Menu</h1>
             <img src="/menu.png" alt="" className="mt-3" /> 
           <Link to={'/menu'} ><button className="text-white bg-gradient-to-r from-red-600 to-red-700 p-2 rounded-lg text-lg ">View more </button></Link> 
           </div>
