@@ -47,7 +47,7 @@ function Home() {
           </div>
           </div>
         <div className="lg:basis-2/4 flex justify-center items-center w-full">
-          <div className="flex flex-col items-center w-80 lg:w-96 Llg:h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5">
+          <div className="flex flex-col items-center w-82 h-96 lg:w-96 lg:h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5 justify-center">
             {/* <h1 className="text-white text-center font-kanit font-medium text-3xl">Our</h1> */}
             <h1 className="text-white text-center font-kanit font-medium text-2xl">Explore Our Menu</h1>
             <img src="/menu.png" alt="" className="mt-3" /> 

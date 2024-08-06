@@ -14,7 +14,9 @@ export default {
       },
       spacing: {
         '128': '32rem',
-        '25' : '25rem'
+        '25' : '25rem',
+        '82':'21rem'
+        
       },
       colors : {
         zamzam:'rgb(105, 28, 50)'
