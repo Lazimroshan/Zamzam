@@ -7,6 +7,7 @@ import {motion} from 'framer-motion'
 
 function Home() {
   return (
+    <div className=''>
     <div className="bg-[url('/zamzam.jpg')] bg-no-repeat bg-cover bg-center h-96 lg:bg-cover lg:h-screen lg:w-full">
       <div className=" lg:h-screen">
         <nav className="mx-auto">
@@ -36,15 +37,20 @@ function Home() {
       <div className="bg-zamzam w-full lg:h-128 h-screen ">
         <div className="flex lg:flex-row h-full flex-wrap">
           <div className="lg:basis-2/4 flex justify-center w-full  ">
-          <div className=" w-96 :lg:h-full h-full flex flex-row justify-center items-center">
+          <motion.div className=" w-96 :lg:h-full h-full flex flex-row justify-center items-center"
+          initial={{y:-40}}
+          animate={{y:10}}
+          transition={{type:'spring',stiffness:200}}
+          
+          >
           <motion.h1 className="text-white text-4xl lg:text-7xl font-bold font-poppins px-3  text-center"
-          initial={{opacity:0  }}
-          animate={{opacity:[0.1,1,0.1] }}
+          initial={{opacity:0 , }}
+          animate={{opacity:[0.1,1,0.1] , }}
           transition={{duration:4, repeat:Infinity, }}
           >
             We are opening soon...
           </motion.h1>
-          </div>
+          </motion.div>
           </div>
         <div className="lg:basis-2/4 flex justify-center items-center w-full">
           <div className="flex flex-col items-center w-82 h-96 lg:w-96 lg:h-46 bg-white bg-opacity-10 p-3 rounded-lg lg:m-5 ml-0.5 justify-center">
@@ -59,7 +65,7 @@ function Home() {
     </div>
     <Footer/>
     </div>
-   
+    </div>
   );
 }
 
