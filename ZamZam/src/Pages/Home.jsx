@@ -35,8 +35,8 @@ function Home() {
       <div>
       <div className="bg-zamzam w-full lg:h-128 h-screen ">
         <div className="flex lg:flex-row h-full flex-wrap">
-          <div className="basis-2/4 flex justify-center  ">
-          <div className=" w-96 :lg:h-full h-full flex flex-row items-center">
+          <div className="lg:basis-2/4 flex justify-center w-full  ">
+          <div className=" w-96 :lg:h-full h-full flex flex-row justify-center items-center">
           <motion.h1 className="text-white text-4xl lg:text-7xl font-bold font-poppins px-3  text-center"
           initial={{opacity:0  }}
           animate={{opacity:[0.1,1,0.1] }}
